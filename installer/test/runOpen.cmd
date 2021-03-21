@@ -1,0 +1,1 @@
+npx cowsay transplate
