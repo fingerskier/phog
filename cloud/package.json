@@ -1,8 +1,9 @@
 {
-  "name": "hardware",
+  "name": "server",
   "version": "0.0.0",
   "private": true,
   "scripts": {
+    "dev": "npx nodemon ./bin/www",
     "start": "node ./bin/www"
   },
   "dependencies": {
