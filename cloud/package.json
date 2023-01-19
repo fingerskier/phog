@@ -3,14 +3,15 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "dev": "npx nodemon ./bin/www",
-    "start": "node ./bin/www"
+    "dev": "set DEBUG=cloud:*&&npx nodemon ./app",
+    "start": "node ./app"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
     "express": "~4.16.1",
-    "morgan": "~1.9.1"
+    "morgan": "~1.9.1",
+    "pem": "^1.14.6"
   },
   "main": "app.js",
   "keywords": [],
